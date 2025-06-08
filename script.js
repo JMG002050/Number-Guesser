@@ -3,4 +3,8 @@ let computerScore = 0;
 let currentRoundNumber = 1;
 
 // Write your code below:
+// TASK 1 
 
+function generateTarget() {
+  return Math.floor(Math.random() * 10);
+}
