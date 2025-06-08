@@ -17,3 +17,12 @@ function compareGuesses (humanGuess, computerGuess, secretGuess) {
     return false;
   }
 }
+
+// Task 3
+function updateScore(winnerIs) {
+  if(winnerIs === 'human') {
+    humanScore++;
+  } else {
+    computerScore++;
+  }
+}
