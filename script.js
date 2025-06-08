@@ -26,3 +26,8 @@ function updateScore(winnerIs) {
     computerScore++;
   }
 }
+
+// Tas 4 
+function advanceRound() {
+  currentRoundNumber++;
+}
